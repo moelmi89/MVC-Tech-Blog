@@ -1,0 +1,24 @@
+<div class="title">
+    <p class="blog">T E C H  B L O G</p>
+
+            {{#if logged_in}}
+
+                {{else}}
+                <p class="monospace spacing">Please log in to comment!</p>
+
+                {{/if}}
+</div>
+
+            <div class="card-container">
+            
+                {{#each posts as |post|}}
+                {{> post-item}} 
+                 {{/each}}
+              </div>
+
+<script type="text/javascript" src="../js/index.js"></script>
+
+{{#if logged_in}}
+<script src="../js/comment.js"></script>
+
+{{/if}}
