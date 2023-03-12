@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: rgb(234, 246, 246);
+    background-color: rgb(247, 247, 247);
   }
   
   .material-symbols-outlined {
@@ -46,7 +46,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(213, 233, 233);
+    background-color: rgb(219, 213, 233);
   }
   
   nav li a {
@@ -60,7 +60,7 @@
   }
   
   .title {
-    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 150;
     color: rgb(102, 191, 191);
     height: 50vh;
@@ -79,13 +79,13 @@
   }
   
   .monospace {
-    font-family: "Source Code Pro", monospace;
+    font-family:Arial, Helvetica, sans-serif;
   }
   
   .card {
     width: 20%;
     margin: 1%;
-    border-radius: 10px;
+    border-radius: 5px;
     flex-direction: column;
     text-align: center;
     padding: 3%;
@@ -104,7 +104,7 @@
   .blog,
   #body-container,
   .saved-post-container {
-    background-image: url(https://hougumlaw.com/wp-content/uploads/2016/05/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg);
+    background-color:rgb(242, 243, 239);
     background-attachment: fixed;
     background-repeat: repeat;
     background-size: cover;
@@ -173,7 +173,7 @@
   footer {
     height: 20vh;
     text-align: center;
-    font-family: "Source Code Pro", monospace;
+    font-family:Arial, Helvetica, sans-serif;
   }
   
   .contact-us {
